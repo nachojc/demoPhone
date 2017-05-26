@@ -1,0 +1,43 @@
+:host {
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    width: 300px;
+    margin: 10px;
+    &>div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+a {
+    text-decoration: none;
+    &:active {}
+}
+
+h2 {
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Trade Bold';
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #000;
+}
+
+.content {
+    display: flex;
+    img {
+        width: 110px;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        span:first-child {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    }
+}

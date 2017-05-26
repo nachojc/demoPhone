@@ -1,0 +1,15 @@
+<div>
+    <a [routerLink]="['/phone', phone.id]">
+        <h2>{{phone.name}}</h2>
+    </a>
+    <div class="content">
+        <div><img src="{{phone.img}}" />
+        </div>
+        <div class="description">
+            <div class="block">
+                <span>Price</span>
+                <span>{{phone.price}}</span>
+            </div>
+        </div>
+    </div>
+</div>

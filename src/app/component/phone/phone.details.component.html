@@ -1,0 +1,25 @@
+<div *ngIf="phone">
+
+    <h2>{{phone.name}}</h2>
+
+
+    <h4>{{phone.mark}}</h4>
+
+    <div class="content">
+        <div><img src="{{phone.img}}" />
+        </div>
+        <div class="description">
+            <div class="block">
+                <span>Price</span>
+                <span>{{phone.price}}</span>
+            </div>
+            <div class="block">
+                <span>Details</span>
+                <span>{{phone.description}}</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<a [routerLink]="['']">Back</a>
